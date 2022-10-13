@@ -22,6 +22,7 @@ function draw() {
 
     if (px>600||px<0)(vx=-vx)
     if (py>400||py<0)(vy=-vy)
-
+    
+    fill(0,255,100)
     ellipse(px+vx, py+vy, radius, radius);
 }
